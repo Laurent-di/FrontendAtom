@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 400px;
+  color: orange;
+  border: 1px orange solid;
+  margin-top: 20px;
+}
+
+.menu-list {
+  border: 1px orange solid;
+  margin: 2px;
+}
+
+.menu-header {
+  height: 50px;
+  background-color: orange;
+  color: white;
+  margin: 2px;
+  padding: 5px;
+}
+
+ol,
+ul {
+  padding-left: 40px;
+}
+
+hr {
+  margin: 20px 0;
+  height: 1px;
+  width: 380px;
+  transform: translate(-35px);
+}
+
+ul:last-child {
+  padding-bottom: 20px;
+}
